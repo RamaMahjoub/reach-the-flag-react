@@ -1,0 +1,14 @@
+.stack{
+    margin: auto;
+    padding-top: 2.5%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    row-gap: 10px;
+    column-gap: 10px;
+    align-content: center;
+}
+
+.link{
+    text-decoration: none;
+}
