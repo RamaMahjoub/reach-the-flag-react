@@ -7,7 +7,7 @@ function App() {
   return (
     <BrowserRouter>
       <Routes>
-        <Route exact path="/levels" element={<Level />} />
+        <Route exact path="/" element={<Level />} />
         <Route path="/level/:id" element={<Board />} />
         <Route path="*" element={<NoMatch />} />
       </Routes>
